@@ -7,7 +7,7 @@ export default function DashboardLayout({
 }) {
     return (
         <MainLayout>
-            <section className="pt-5 pb-12 px-3 md:px-5 xl:px-6">
+            <section className="pt-3 pb-12 px-3 pl-6 pr-10">
                 {children}
             </section>
         </MainLayout>
