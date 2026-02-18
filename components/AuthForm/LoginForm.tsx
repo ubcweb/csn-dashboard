@@ -37,11 +37,11 @@ const LoginForm = () => {
         <div className='xl:px-5 2xl:px-7 w-full sm:max-w-[500px] xl:max-w-full flex flex-col gap-8 md:gap-10 2xl:gap-14 items-center'>
             <div className='flex flex-col gap-4 md:gap-5 xl:gap-7 items-center'>
                 <div>
-                    <Image src="/Login-logo-icon.svg" alt="Image" width={44} height={50} className='w-[30px] xl:w-[40px]' />
+                    <Image src="/Login-logo-icon.svg" alt="Image" width={44} height={50} className='w-[30px] xl:w-[35px]' />
                 </div>
                 <div className='flex flex-col gap-2 items-center'>
                     <h2 className='font-semibold Medium-heading tracking-[-1px] text-[#10103E]'>Welcome to CSN</h2>
-                    <p className='font-normal Medium-text text-[#7A8799]'>Quote, Book and Ship. All-in-one place.</p>
+                    <p className='font-normal Small-text text-[#7A8799]'>Quote, Book and Ship. All-in-one place.</p>
                 </div>
             </div>
             <div className='w-full'>
@@ -89,18 +89,18 @@ const LoginForm = () => {
                                             color="default"
                                             size='sm'
                                         >
-                                            <p className='font-normal Medium-text text-[#7A8799]'>Remember me</p>
+                                            <p className='font-normal Small-text text-[#7A8799]'>Remember me</p>
                                         </Checkbox>
                                     )}
                                 </Field>
                             </div>
                             <div className='flex flex-col gap-5 items-center'>
-                                <button type='submit' disabled={isSubmitting} className='w-full py-3 font-semibold Normal-text tracking-[1px] Gradient-button'>
+                                <button type='submit' disabled={isSubmitting} className='w-full py-3 font-semibold Medium-text tracking-[1px] Gradient-button'>
                                     LOGIN
                                 </button>
                                 <div className='flex gap-2 items-center'>
-                                    <p className='font-normal Medium-text text-[#7A8799]'>New Member?</p>
-                                    <button type="button" className='w-fit flex gap-1 items-center font-semibold Medium-text text-[#10103E] hover:text-[#1739E5] Hover-effect cursor-pointer'>
+                                    <p className='font-normal Small-text text-[#7A8799]'>New Member?</p>
+                                    <button type="button" className='w-fit flex gap-1 items-center font-semibold Small-text text-[#10103E] hover:text-[#1739E5] Hover-effect cursor-pointer'>
                                         Register now <FiArrowUpRight />
                                     </button>
                                 </div>

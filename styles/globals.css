@@ -278,25 +278,25 @@
 
 .Label-text {
   font-weight: 600;
-  font-size: 14px;
-  line-height: 17.4px;
+  font-size: 13px;
+  line-height: 16.4px;
   color: #192433;
   padding-bottom: 4px;
   @media (min-width: 768px) {
-      font-size: 15px;
-      line-height: 18.4px;
+      font-size: 14px;
+      line-height: 17.4px;
       padding-bottom: 5px;
   } 
 }
 
 .Mandatory-icon {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15.4px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14.4px;
   color: #BF1000;
   @media (min-width: 768px) {
-      font-size: 13px;
-      line-height: 16.4px;
+      font-size: 12px;
+      line-height: 15.4px;
   } 
 }
 
@@ -304,20 +304,23 @@
   width: 100%;
   border: 2px solid #E6EEF2;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 17.4px;
+  font-size: 13px;
+  line-height: 16.4px;
   color: #606D80;
-  padding: 12px;
+  padding: 11px;
   background-color: #FFFFFF;
   border-radius: 8px;
   outline: none;
   @media (min-width: 768px) {
-      font-size: 15px;
-      line-height: 18.4px;
+      font-size: 14px;
+      line-height: 17.4px;
   } 
 }
 .Input-field::placeholder {
   color: #ADBAC0;
+}
+.Input-field:focus {
+  border: 1px solid #1739E5;
 }
 
 .Error-text {
