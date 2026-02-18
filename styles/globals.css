@@ -8,3 +8,265 @@
   --font-helvena: "Helvena", sans-serif;
   --font-mono: "Monospace", monospace;
 }
+
+.Hover-effect:hover {
+  transform: all;
+  transition: all 0.2s ease-in-out;
+}
+
+.Normal-scale {
+  transition: all 0.3s ease-in-out;
+}
+.Normal-scale:hover {
+  transform: scale(1.02);
+}
+
+.Hide-scrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* 80px */
+.Main-heading {
+  font-size: 38px;
+  line-height: 42.4px;
+}
+@media (min-width: 768px) {
+  .Main-heading {
+    font-size: 44px;
+    line-height: 48.4px;
+  }
+}
+@media (min-width: 1280px) {
+  .Main-heading {
+    font-size: 54px;
+    line-height: 58.4px;
+  }
+}
+
+/* 64px */
+.Sub-heading {
+  font-size: 28px;
+  line-height: 32.4px;
+}
+@media (min-width: 768px) {
+  .Sub-heading {
+    font-size: 36px;
+    line-height: 40.4px;
+  }
+}
+@media (min-width: 1280px) {
+  .Sub-heading {
+    font-size: 44px;
+    line-height: 48.4px;
+  }
+}
+
+/* 48px */
+.Large-heading {
+  font-size: 24px;
+  line-height: 28.4px;
+}
+@media (min-width: 768px) {
+  .Large-heading {
+    font-size: 28px;
+    line-height: 32.4px;
+  }
+}
+@media (min-width: 1280px) {
+  .Large-heading {
+    font-size: 32px;
+    line-height: 36.4px;
+  }
+}
+
+/* 40px */
+.Medium-heading {
+  font-size: 20px;
+  line-height: 23.4px;
+}
+@media (min-width: 768px) {
+  .Medium-heading {
+    font-size: 24px;
+    line-height: 27.4px;
+  }
+}
+@media (min-width: 1280px) {
+  .Medium-heading {
+    font-size: 28px;
+    line-height: 32.4px;
+  }
+}
+
+/* 32px */
+.Small-heading {
+  font-size: 20px;
+  line-height: 23.4px;
+}
+@media (min-width: 768px) {
+  .Small-heading {
+    font-size: 22px;
+    line-height: 25.4px;
+  }
+}
+@media (min-width: 1280px) {
+  .Small-heading {
+    font-size: 24px;
+    line-height: 27.4px;
+  }
+}
+
+
+.Little-text {
+  font-size: 10px;
+  line-height: 13.4px;
+}
+@media (min-width: 768px) {
+  .Little-text {
+    font-size: 11px;
+    line-height: 14.4px;
+  }
+}
+@media (min-width: 1280px) {
+  .Little-text {
+    font-size: 12px;
+    line-height: 15.4px;
+  }
+} 
+
+.Small-text {
+  font-size: 12px;
+  line-height: 15.4px;
+}
+@media (min-width: 768px) {
+  .Small-text {
+    font-size: 13px;
+    line-height: 16.4px;
+  }
+}
+@media (min-width: 1280px) {
+  .Small-text {
+    font-size: 14px;
+    line-height: 17.4px;
+  }
+}
+
+.Medium-text {
+  font-size: 14px;
+  line-height: 17.4px;
+}
+@media (min-width: 768px) {
+  .Medium-text {
+    font-size: 15px;
+    line-height: 18.4px;
+  }
+}
+@media (min-width: 1280px) {
+  .Medium-text {
+    font-size: 16px;
+    line-height: 19.4px;
+  }
+}
+
+.Normal-text {
+  font-size: 16px;
+  line-height: 19.4px;
+}
+@media (min-width: 768px) {
+  .Normal-text {
+    font-size: 17px;
+    line-height: 20.4px;
+  }
+}
+@media (min-width: 1280px) {
+  .Normal-text {
+    font-size: 18px;
+    line-height: 21.4px;
+  }
+}
+
+.Large-text {
+  font-size: 18px;
+  line-height: 21.4px;
+}
+@media (min-width: 768px) {
+  .Large-text {
+    font-size: 19px;
+    line-height: 22.4px;
+  }
+}
+@media (min-width: 1280px) {
+  .Large-text {
+    font-size: 20px;
+    line-height: 23.4px;
+  }
+}
+
+
+
+
+
+/* .WY-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #07090D;
+  background-color: #F7F5F0;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.WY-button:hover {
+  color: #F7F5F0;
+  background-color: #997F4D;
+  transform: scale(1.03);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Common-padding {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media (min-width: 640px) {
+  .Common-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .Common-padding {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .Common-padding {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 1280px) {
+  .Common-padding {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+@media (min-width: 1536px) {
+  .Common-padding {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
