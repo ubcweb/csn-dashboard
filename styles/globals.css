@@ -206,22 +206,22 @@
 
 
 
-/* .WY-button {
+.Gradient-button {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  color: #07090D;
-  background-color: #F7F5F0;
-  border-radius: 4px;
+  color: #F1F6F8;
+  background-image: linear-gradient(to right, #4B86EB, #1739E5, #10103E);
+  border-radius: 8px;
   transition: all 0.3s ease-in-out;
+  text-align: center;
   cursor: pointer;
 }
-.WY-button:hover {
-  color: #F7F5F0;
-  background-color: #997F4D;
-  transform: scale(1.03);
-} */
+.Gradient-button:hover {
+  background-image: linear-gradient(to right, #10103E, #1739E5, #4B86EB);
+}
+
 
 
 
@@ -269,4 +269,64 @@
     padding-left: 100px;
     padding-right: 100px;
   }
+}
+
+
+
+
+
+
+.Label-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17.4px;
+  color: #192433;
+  padding-bottom: 4px;
+  @media (min-width: 768px) {
+      font-size: 15px;
+      line-height: 18.4px;
+      padding-bottom: 5px;
+  } 
+}
+
+.Mandatory-icon {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15.4px;
+  color: #BF1000;
+  @media (min-width: 768px) {
+      font-size: 13px;
+      line-height: 16.4px;
+  } 
+}
+
+.Input-field {
+  width: 100%;
+  border: 2px solid #E6EEF2;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.4px;
+  color: #606D80;
+  padding: 12px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  outline: none;
+  @media (min-width: 768px) {
+      font-size: 15px;
+      line-height: 18.4px;
+  } 
+}
+.Input-field::placeholder {
+  color: #ADBAC0;
+}
+
+.Error-text {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14.4px;
+  color: #BF1000;
+  @media (min-width: 768px) {
+      font-size: 12px;
+      line-height: 15.4px;
+  } 
 }
