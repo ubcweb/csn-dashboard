@@ -13,7 +13,11 @@ const MainLayout = ({ children }: any) => {
                     <SideNav />
                 </div>
                 <main className="pt-[65px] w-full min-h-full overflow-hidden overflow-y-scroll Hide-scrollBar bg-[#F5F8FA]">
-                    {children}
+                    <div className='w-full flex flex-col items-center'>
+                        <div className='w-full max-w-[1500px]'>
+                            {children}
+                        </div>
+                    </div>
                 </main>
             </div>
         </div>
