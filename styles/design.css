@@ -2,3 +2,20 @@
   position: fixed;
   z-index: 50;
 }
+
+.Dashboard-card-text {
+  font-size: 20px;
+  line-height: 23.4px;
+}
+@media (min-width: 768px) {
+  .Dashboard-card-text {
+    font-size: 21px;
+    line-height: 24.4px;
+  }
+}
+@media (min-width: 1280px) {
+  .Dashboard-card-text {
+    font-size: 22px;
+    line-height: 25.4px;
+  }
+}

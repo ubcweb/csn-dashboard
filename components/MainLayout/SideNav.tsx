@@ -8,7 +8,7 @@ import { PiShippingContainer } from "react-icons/pi";
 
 const sideBarItems = [
   { href: "/dashboard", icon: <BiSolidDashboard />, name: "Dashboard" },
-  { href: "/new-quote", icon: <CgNotes />, name: "New Quote / Booking" },
+  { href: "/new-quote", icon: <CgNotes />, name: "New Quote/Booking" },
   { href: "/shipments", icon: <PiShippingContainer />, name: "Shipments" },
 ];
 
