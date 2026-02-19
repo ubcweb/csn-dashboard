@@ -36,7 +36,7 @@ const Dashboard = () => {
                 </p>
                 <div className='flex gap-5 items-end justify-between'>
                   <p className='font-Rink font-semibold Sub-heading text-[#10103E]'>0</p>
-                  <div className='text-[24px] text-[#2D4059] pr-1 group-hover:pr-0 transform transition-all duration-300'><RxArrowRight /></div>
+                  <div className='text-[24px] text-[#2D4059] pr-1 group-hover:pr-0 transform transition-all duration-200'><RxArrowRight /></div>
                 </div>
               </div>
             </Link>
@@ -47,7 +47,7 @@ const Dashboard = () => {
                 </p>
                 <div className='flex gap-5 items-end justify-between'>
                   <p className='font-Rink font-semibold Sub-heading text-[#10103E]'>0</p>
-                  <div className='text-[24px] text-[#2D4059] pr-1 group-hover:pr-0 transform transition-all duration-300'><RxArrowRight /></div>
+                  <div className='text-[24px] text-[#2D4059] pr-1 group-hover:pr-0 transform transition-all duration-200'><RxArrowRight /></div>
                 </div>
               </div>
             </Link>
@@ -58,7 +58,7 @@ const Dashboard = () => {
                 </p>
                 <div className='flex gap-5 items-end justify-between'>
                   <p className='font-Rink font-semibold Sub-heading text-[#10103E]'>3</p>
-                  <div className='text-[24px] text-[#2D4059] pr-1 group-hover:pr-0 transform transition-all duration-300'><RxArrowRight /></div>
+                  <div className='text-[24px] text-[#2D4059] pr-1 group-hover:pr-0 transform transition-all duration-200'><RxArrowRight /></div>
                 </div>
               </div>
             </Link>
@@ -69,7 +69,7 @@ const Dashboard = () => {
                 </p>
                 <div className='flex gap-5 items-end justify-between'>
                   <p className='font-Rink font-semibold Sub-heading text-[#10103E]'>10</p>
-                  <div className='text-[24px] text-[#2D4059] pr-1 group-hover:pr-0 transform transition-all duration-300'><RxArrowRight /></div>
+                  <div className='text-[24px] text-[#2D4059] pr-1 group-hover:pr-0 transform transition-all duration-200'><RxArrowRight /></div>
                 </div>
               </div>
             </Link>
