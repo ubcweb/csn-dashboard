@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="Fixed-navbar w-full lg:pl-[204] xl:pl-[225px] bg-[#F5F8FA]">
         <div className='w-full pt-3 pb-5 pl-6 pr-10 flex gap-5 items-center justify-between'>
           <div className='w-fit lg:hidden'>
-            <button onClick={onOpen} className='w-fit text-[#10103E] hover:text-[#1739E5] Hover-effect cursor-pointer'>
+            <button onClick={onOpen} className='w-fit p-1.5 text-[#10103E] hover:text-[#FFFFFF] hover:bg-[#10103E] Hover-effect hover:rounded-full cursor-pointer'>
               <IoIosMenu className='text-[22px]' />
             </button>
           </div>
@@ -30,10 +30,10 @@ const Navbar = () => {
             </div>
           </div>
           <div className='flex gap-7 items-center'>
-            <button className='w-fit text-[#10103E] hover:text-[#1739E5] Hover-effect cursor-pointer'>
+            <button className='w-fit p-1.5 text-[#10103E] hover:text-[#FFFFFF] hover:bg-[#10103E] Hover-effect hover:rounded-full cursor-pointer'>
               <IoNotificationsOutline className='text-[22px]' />
             </button>
-            <button className='w-fit text-[#10103E] hover:text-[#1739E5] Hover-effect cursor-pointer'>
+            <button className='w-fit p-1.5 text-[#10103E] hover:text-[#FFFFFF] hover:bg-[#10103E] Hover-effect hover:rounded-full cursor-pointer'>
               <IoSettingsOutline className='text-[22px]' />
             </button>
           </div>
