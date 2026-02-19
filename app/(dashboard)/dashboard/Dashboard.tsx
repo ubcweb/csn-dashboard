@@ -15,14 +15,14 @@ const Dashboard = () => {
           <Link href="/new-quote" className='group h-[250px] w-full relative overflow-hidden rounded-[16px] z-0 cursor-pointer'>
             <div className='absolute Dashboard-cardOne-background group-hover:scale-105 transform transition-all duration-500 -z-10'></div>
             <div className='p-4 w-full flex gap-5 items-center justify-between'>
-              <p className='font-Rink font-semibold Large-text text-[#FFFFFF]'>GET A QUOTE</p>
+              <p className='font-Rink font-semibold Dashboard-card-text text-[#FFFFFF]'>GET A QUOTE</p>
               <div className='text-[24px] text-[#FFFFFF]'><RxArrowRight /></div>
             </div>
           </Link>
           <Link href="/shipments" className='group h-[250px] w-full relative overflow-hidden rounded-[16px] z-0 cursor-pointer'>
             <div className='absolute Dashboard-cardTwo-background group-hover:scale-105 transform transition-all duration-500 -z-10'></div>
             <div className='p-4 w-full flex gap-5 items-center justify-between'>
-              <p className='font-Rink font-semibold Large-text text-[#FFFFFF]'>SHIPMENTS</p>
+              <p className='font-Rink font-semibold Dashboard-card-text text-[#FFFFFF]'>SHIPMENTS</p>
               <div className='text-[24px] text-[#FFFFFF]'><RxArrowRight /></div>
             </div>
           </Link>
