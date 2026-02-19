@@ -3,7 +3,7 @@ import React from 'react'
 
 const Shipments = () => {
   return (
-    <div>Shipments</div>
+    <div className='text-black'>Shipments</div>
   )
 }
 
