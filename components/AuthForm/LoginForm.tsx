@@ -37,7 +37,7 @@ const LoginForm = () => {
         <div className='xl:px-5 2xl:px-7 w-full sm:max-w-[500px] xl:max-w-full flex flex-col gap-8 md:gap-10 2xl:gap-14 items-center'>
             <div className='flex flex-col gap-4 md:gap-5 xl:gap-7 items-center'>
                 <div>
-                    <Image src="/Login-logo-icon.svg" alt="Image" width={44} height={50} className='w-[30px] xl:w-[35px]' />
+                    <Image src="/Login-logo-icon.svg" alt="Logo Icon" width={44} height={50} className='w-[30px] xl:w-[35px]' />
                 </div>
                 <div className='flex flex-col gap-2 items-center'>
                     <h2 className='font-semibold Medium-heading tracking-[-1px] text-[#10103E]'>Welcome to CSN</h2>
