@@ -19,3 +19,30 @@
     line-height: 25.4px;
   }
 }
+
+.Quote-input-field {
+  width: 100%;
+  border: 2px solid #E6EEF2;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15.4px;
+  color: #606D80;
+  padding: 11px;
+  background-color: #F1F6F8;
+  border-radius: 8px;
+  outline: none;
+  @media (min-width: 768px) {
+      font-size: 13px;
+      line-height: 16.4px;
+  }
+  @media (min-width: 1280px) {
+      font-size: 14px;
+      line-height: 17.4px;
+  } 
+}
+.Quote-input-field::placeholder {
+  color: #ADBAC0;
+}
+.Quote-input-field:focus {
+  border: 1px solid #1739E5;
+}
