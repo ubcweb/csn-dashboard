@@ -2,18 +2,31 @@
 import { useState } from 'react';
 import Image from "next/image";
 import Link from 'next/link';
-import { BiSolidDashboard } from "react-icons/bi";
-import { CgNotes } from "react-icons/cg";
-import { PiShippingContainer } from "react-icons/pi";
 
 const sideBarItems = [
-  { href: "/dashboard", icon: <BiSolidDashboard />, name: "Dashboard" },
-  { href: "/new-quote", icon: <CgNotes />, name: "New Quote/Booking" },
-  { href: "/shipments", icon: <PiShippingContainer />, name: "Shipments" },
+  {
+    href: "/dashboard",
+    name: "Dashboard",
+    icon: "/Sidenav-dashboard-iamge.svg",
+    selectedIcon: "/Sidenav-dashboard-selected-iamge.svg",
+  },
+  {
+    href: "/new-quote",
+    name: "New Quote/Booking",
+    icon: "/Sidenav-quote-iamge.svg",
+    selectedIcon: "/Sidenav-quote-selected-iamge.svg",
+  },
+  {
+    href: "/shipments",
+    name: "Shipments",
+    icon: "/Sidenav-shipment-iamge.svg",
+    selectedIcon: "/Sidenav-shipment-selected-iamge.svg",
+  },
 ];
 
 const SideNav = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     <div className='h-screen w-[225px] overflow-hidden overflow-y-scroll Hide-scrollBar bg-white transition-all duration-300 ease-in-out'>
@@ -24,13 +37,15 @@ const SideNav = () => {
           </div>
           <div className='flex flex-col gap-2'>
             {sideBarItems.map((item, index) =>
-              <Link key={index} href={item.href} onClick={() => setSelectedIndex(index)} className='cursor-pointer'>
-                <p className={`group px-2.5 py-3 flex gap-2 items-center rounded-[8px] transition-all duration-300 ease-in-out cursor-pointer ${selectedIndex === index ? 'bg-[#10103E] text-[#FFFFFF]' : 'text-[#10103E] hover:text-[#FFFFFF] hover:bg-[#10103E]'}`}>
-                  <span className="text-[14px] xl:text-[16px]">{item.icon}</span>
-                  <span className={`font-Rink Little-text tracking-[1px] uppercase whitespace-nowrap ${selectedIndex === index ? 'font-semibold' : 'font-normal group-hover:font-semibold'}`}>
+              <Link key={index} href={item.href} onClick={() => setSelectedIndex(index)} onMouseEnter={() => setHoveredIndex(index)} onMouseLeave={() => setHoveredIndex(null)} className='cursor-pointer'>
+                <div className={`group px-2.5 py-3 flex gap-2 items-center rounded-[8px] transition-all duration-300 ease-in-out cursor-pointer ${selectedIndex === index ? 'bg-[#10103E] text-[#FFFFFF]' : 'text-[#10103E] hover:text-[#FFFFFF] hover:bg-[#10103E]'}`}>
+                  <div className='shrink-0'>
+                    <Image src={(selectedIndex === index || hoveredIndex === index) ? item.selectedIcon : item.icon} alt="Icon" width={32} height={32} className='w-[18px]' />
+                  </div>
+                  <p className={`font-Rink Little-text tracking-[1px] uppercase whitespace-nowrap ${selectedIndex === index ? 'font-semibold' : 'font-normal group-hover:font-semibold'}`}>
                     {item.name}
-                  </span>
-                </p>
+                  </p>
+                </div>
               </Link>
             )}
           </div>

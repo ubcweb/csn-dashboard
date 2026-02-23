@@ -539,10 +539,10 @@ const NewQuote = () => {
                           <span className="font-Rink font-semibold Large-text text-[#10103E] whitespace-nowrap">00:00</span>
                           <span className="font-normal Little-text text-[#7A8799] whitespace-nowrap">Thu, 1 Jan</span>
                         </p>
-                        <div className="w-full flex gap-4 items-center">
-                          <div className="h-2.5 w-2.5 bg-[#79CAF2] rounded-full"></div>
-                          <div className="w-full border-t-[2px] border-[#79CAF2]"></div>
-                          <div className="h-2.5 w-2.5 bg-[#79CAF2] rounded-full"></div>
+                        <div className="w-full flex gap-3 items-center">
+                          <div className="h-2 w-2 bg-[#79CAF2] rounded-full"></div>
+                          <div className="w-full border-t-[1px] border-[#79CAF2]"></div>
+                          <div className="h-2 w-2 bg-[#79CAF2] rounded-full"></div>
                         </div>
                         <p className="w-fit flex flex-col items-end">
                           <span className="font-Rink font-semibold Little-text tracking-[0.5px] text-[#2D4059] whitespace-nowrap">HKG</span>
