@@ -164,7 +164,7 @@ const ShipmentStatus = () => {
                     <div className='w-full grid grid-cols-3 gap-2'>
                         {tabs.slice(1).map((tab) => (
                             <button key={tab.id} onClick={() => setActiveTab(tab.id)} className={`w-full py-[5px] px-2 flex gap-5 items-center justify-between rounded-[8px] cursor-pointer ${activeTab === tab.id ? 'border-[1px] border-[#2D4059] font-semibold' : 'border-[2px] border-[#E6EEF2] font-normal'}`}>
-                                <span className='Small-text' style={{ color: tab.textColor }}>
+                                <span className='Small-text text-left line-clamp-1' style={{ color: tab.textColor }}>
                                     {tab.label}
                                 </span>
                                 <span className='py-[2px] px-2 Tiny-text text-[#7A8799] bg-[#F1F6F8] rounded-[4px]'>
