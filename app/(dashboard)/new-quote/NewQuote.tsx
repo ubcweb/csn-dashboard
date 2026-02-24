@@ -31,7 +31,7 @@ const distanceDetails = [
 
 const NewQuote = () => {
   const [activeTab, setActiveTab] = useState<'details' | 'routes'>('details');
-  const [selectedGender, setSelectedGender] = useState("");
+  const [selectedItem, setSelectedItem] = useState("");
   const [selectedMode, setSelectedMode] = useState<number>(1);
   const [isDG, setIsDG] = useState(false);
   const [dimensionRows, setDimensionRows] = useState<number[]>([0]);
@@ -86,8 +86,8 @@ const NewQuote = () => {
     }
   ];
 
-  const handleGenderSelect = (value: string) => {
-    setSelectedGender(value);
+  const handleItemSelect = (value: string) => {
+    setSelectedItem(value);
   };
 
   const handleAddRow = () => {
@@ -138,8 +138,8 @@ const NewQuote = () => {
                     <CustomSelector
                       placeholder="Select"
                       options={selectOptions}
-                      selectedValue={selectedGender}
-                      onSelect={handleGenderSelect}
+                      selectedValue={selectedItem}
+                      onSelect={handleItemSelect}
                     />
                   </div>
                   <div className='flex flex-col gap-1.5'>
@@ -164,8 +164,8 @@ const NewQuote = () => {
                     <CustomSelector
                       placeholder="Select"
                       options={selectOptions}
-                      selectedValue={selectedGender}
-                      onSelect={handleGenderSelect}
+                      selectedValue={selectedItem}
+                      onSelect={handleItemSelect}
                     />
                   </div>
                 </div>
@@ -201,8 +201,8 @@ const NewQuote = () => {
                     <CustomSelector
                       placeholder="Select airport"
                       options={selectOptions}
-                      selectedValue={selectedGender}
-                      onSelect={handleGenderSelect}
+                      selectedValue={selectedItem}
+                      onSelect={handleItemSelect}
                     />
                   </div>
                   <div className='flex flex-col gap-1.5'>
@@ -210,8 +210,8 @@ const NewQuote = () => {
                     <CustomSelector
                       placeholder="Select airport"
                       options={selectOptions}
-                      selectedValue={selectedGender}
-                      onSelect={handleGenderSelect}
+                      selectedValue={selectedItem}
+                      onSelect={handleItemSelect}
                     />
                   </div>
                 </div>
@@ -237,8 +237,8 @@ const NewQuote = () => {
                     <CustomSelector
                       placeholder="Select airport"
                       options={selectOptions}
-                      selectedValue={selectedGender}
-                      onSelect={handleGenderSelect}
+                      selectedValue={selectedItem}
+                      onSelect={handleItemSelect}
                     />
                   </div>
                   <div className='flex flex-col gap-1.5'>
@@ -246,8 +246,8 @@ const NewQuote = () => {
                     <CustomSelector
                       placeholder="Select airport"
                       options={selectOptions}
-                      selectedValue={selectedGender}
-                      onSelect={handleGenderSelect}
+                      selectedValue={selectedItem}
+                      onSelect={handleItemSelect}
                     />
                   </div>
                 </div>
